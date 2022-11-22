@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 63px;
+    padding: 0px 23px;
+    border-radius: 20px;
+}
+
+
+nav ul{
+    display:flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.search input{
+    width: 466px;
+    height: 23px;
+    border-radius: 2px;
+    margin: 0px 9px 0px 23px;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: 2px white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.continer{
+    /* min-height: calc(100vh-20vh); */
+    min-height: 80vh;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.slider img{
+    margin: 12px auto;
+    width: 80vw;
+}
+
+.cart{
+    width: 80vw;
+    margin: 4px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.offer,.name{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
